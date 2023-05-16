@@ -27,7 +27,15 @@ body{
 }
 
 .section__contentRight{
+    background-image: url(./img/corner-4.png);
+    background-size: cover;
+    background-position: ;
     background-color: white;
     height: 410px;
-    margin: 20px 10px;
+    margin: 20px 150px;
+    padding-left: 20px;
+}
+
+.section__contentRight select{
+    width: 185px;
 }
