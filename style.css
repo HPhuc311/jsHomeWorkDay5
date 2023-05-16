@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.section__content{
+    margin-top: 200px;
+    background-color: brown;
+    height: 450px;
+}
+
+.list-group{
+    margin-top: 30px;
+}
+
+.list-group-item{
+    border-radius: 8px;
+    margin: 5px 0;
+    width: 220px;
+    text-align: center;
+    outline: none;
+}
+
+.section__contentRight{
+    background-color: white;
+    height: 410px;
+    margin: 20px 10px;
+}
