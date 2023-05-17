@@ -29,7 +29,7 @@ body{
 .section__contentRight{
     background-image: url(./img/corner-4.png);
     background-size: cover;
-    background-position: ;
+    background-position: center;
     background-color: white;
     height: 410px;
     margin: 20px 150px;
@@ -37,5 +37,33 @@ body{
 }
 
 .section__contentRight select{
-    width: 185px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #ababab inset;
+    background-color: antiquewhite;
+    border: 0;
+    padding: 10px;
+    width: 200px;
+}
+
+.section__contentRight input{
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #ababab inset;
+    background-color: antiquewhite;
+    border: 0;
+    padding: 10px;
+}
+
+.section__contentRight .btn{
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+.section__contentRight .section__contentRightResult{
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #ababab inset;
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 255px;
+    height: 115px;
 }
