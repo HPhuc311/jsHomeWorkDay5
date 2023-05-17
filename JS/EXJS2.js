@@ -9,13 +9,13 @@ function paymentofMoney(){
     }else if(number >= 100 && number <= 200){
         energyofMoney = number * 500 + (number - 50) * 150 + (number - 100) * 200;
     }else if(number >= 200 && number <= 350){
-        energyofMoney = number * 500 + (number - 50) * 150 + (number - 100) * 200 + (number - 150) * 250;
+        energyofMoney = number * 500 + (number - 50) * 150 + (number - 100) * 200 + (number - 200) * 250;
     }else{
-        energyofMoney = number * 500 + (number - 50) * 150 + (number - 100) * 200 + (number - 150) * 250 + (number - 150) * 200;
+        energyofMoney = number * 500 + (number - 50) * 150 + (number - 100) * 200 + (number - 200) * 250 + (number - 350) * 200;
     }
 
     document.getElementById("results1").innerHTML = "Tên khách hàng: " + name
-    document.getElementById("results2").innerHTML = energyofMoney
+    document.getElementById("results2").innerHTML = new Intl.NumberFormat('vn-VN').format(energyofMoney) + "VND";
 }
 
 
