@@ -26,7 +26,34 @@
                 </div>
                 <div class="col-10">
                     <div class="section__contentRight">
-                        
+                        <h1 class="text-center">TÍNH TIỀN CÁP</h1>
+                        <div class="row">
+                            <div class="col-12 mt-2">
+                                <select id="selectofObject" onchange="myFunction()">
+                                    <option id="type" value="0">Chọn loại khách hàng</option>
+                                    <option id="home" value="1">Nhà nhân</option>
+                                    <option id="business" value="2">Doanh nghiệp</option>
+                                </select>
+                            </div>
+                            <div id="connectofNumber" class="col-12 mt-2" style="display: none;">
+                                <input id="number" type="number" placeholder="Số kết nối">
+                            </div>
+                            <div class="col-12 mt-2">
+                                <input id="userofNumber" type="text" placeholder="Nhập mã khách hàng">
+                            </div>
+                            <div class="col-12 mt-2">
+                                <input id="channel" type="number" placeholder="Số kênh cao cấp">
+                            </div>
+                            <div class="col-6">
+                                <button id="btnofResults" type="button" class="btn btn-success">TÍNH TIỀN CÁP</button>
+                            </div>
+                            <div class="col-6">
+                                <div class="section__contentRightResult">
+                                   <p id="results1"></p>
+                                   <p id="results2"></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
