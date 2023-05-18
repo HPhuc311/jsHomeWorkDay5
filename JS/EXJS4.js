@@ -46,6 +46,6 @@ function serve(){
         return;
     }
    
-    document.getElementById("results1").innerHTML ="Mã khách hàng là: " userofNumber;
+    document.getElementById("results1").innerHTML ="Mã khách hàng là: " + userofNumber;
 }
 document.getElementById("btnofResults").onclick = serve;
