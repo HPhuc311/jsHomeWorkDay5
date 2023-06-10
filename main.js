@@ -1,13 +1,13 @@
 function calcArea(area){
-    if(area==="A") return 2;
-    else if(area==="B") return 1;
-    else if(area==="C") return 0.5;
+    if(area==="2") return 2;
+    else if(area==="1") return 1;
+    else if(area==="0.5") return 0.5;
     return 0;
 }
 function calcObject(object){
-    if(object===1) return 2.5;
-    else if(object===2) return 1.5;
-    else if(object===3) return 1;
+    if(object==="2.5") return 2.5;
+    else if(object==="1.5") return 1.5;
+    else if(object==="1") return 1;
     return 0;
 }
 
@@ -20,7 +20,7 @@ function sumofSubject() {
     var objectofType = document.getElementById('objectofType').value;
 
     var areaType = calcArea(areaofType);
-    var objectType = calcArea(objectofType);
+    var objectType = calcObject(objectofType);
 
     var total = subjectofFitst + subjectofSecond + subjectofThird + areaType + objectType;
     document.getElementById('results1').innerHTML = "Tổng số điểm của bạn là:" +  total;
